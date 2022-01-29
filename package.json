@@ -1,0 +1,21 @@
+{
+    "name": "calculator-style",
+    "displayName": "Calculator style",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Calculator style",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Calculator style-color-theme.json"
+            }
+        ]
+    }
+}
