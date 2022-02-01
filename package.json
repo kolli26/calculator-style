@@ -3,7 +3,7 @@
     "displayName": "Calculator style",
     "description": "",
     "publisher": "KollarAndras",
-    "version": "0.0.3",
+    "version": "0.0.7",
     "repository": {
         "type": "git",
         "url": "https://github.com/kolli26/calculator-style"
@@ -17,9 +17,19 @@
     "contributes": {
         "themes": [
             {
-                "label": "Calculator style",
+                "label": "Calculator style (blue)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Calculator style-color-theme.json"
+                "path": "./themes/Calculator style-blue-color-theme.json"
+            },
+            {
+                "label": "Calculator style (orange)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Calculator style-orange-color-theme.json"
+            },
+            {
+                "label": "Calculator style (green)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Calculator style-green-color-theme.json"
             }
         ]
     }
